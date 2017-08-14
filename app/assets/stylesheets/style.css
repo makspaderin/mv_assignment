@@ -1,0 +1,81 @@
+/* General */
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Representation */
+
+.company {
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.button {
+  border: solid black 1.5px;
+  width: auto;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 1.5%;
+  transition: 0.5 ease;
+  font-weight: 400;
+}
+
+/* Add page */
+
+.new_company input {
+  margin-top: 1.5%;
+}
+
+/* Edit page */
+
+.edit_company p {
+  text-align: center;
+  margin-top: 1%;
+}
+
+/* Text */
+
+h1 {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  letter-spacing: 1.4px;
+  font-weight: 400;
+}
+
+.form_header {
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato';
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+a {
+  font-family: 'Lato';
+  color: black;
+  letter-spacing: 1.2px;
+  border-bottom: solid black 1px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}

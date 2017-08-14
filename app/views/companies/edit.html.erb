@@ -1,0 +1,10 @@
+<h2 class="form_header"> Enter new data for the company <%= @company.name %>: <h2>
+<%= form_for @company do |form| %>
+	<p> Name* </p> <%= form.text_field :name, placeholder: "Company Name" %>
+  <p> Address* </p> <%= form.text_field :address, placeholder: "Company Address" %>
+	<p> City* </p> <%= form.text_field :city, placeholder: "City" %>
+  <p> Country* </p> <%= form.text_field :country, placeholder: "Country" %>
+	<p> Email </p> <%= form.email_field :email, placeholder: "Email (optional)" %>
+	<p> Phone Number </p> <%= form.telephone_field :phone_number, placeholder: "Phone Number (optional)" %>
+	<%= form.submit "Edit", class: "button"%>
+<% end %>
