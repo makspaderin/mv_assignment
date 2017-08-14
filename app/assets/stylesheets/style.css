@@ -81,6 +81,7 @@ a {
   color: black;
   letter-spacing: 1.2px;
   border-bottom: solid black 1px;
+  margin-bottom: 5%;
 }
 
 a:hover {

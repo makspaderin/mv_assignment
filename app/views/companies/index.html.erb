@@ -5,12 +5,22 @@
 			<p> Address: <%= company.address %>, <%= company.city %>, <%= company.country %> </p>
 			<p> Email: <%= company.email %> </p>
 			<p> Phone Number: <%= company.phone_number %> </p>
-			<p> Beneficial owners: </p>
-			<p> Directors: </p>
+			<p> Beneficial owners:
+			<% company.users.where(role: "Beneficial owner").each do |u| %>
+			<%= u.first_name %>
+			<%= u.last_name %>
+			<% end %>
+			</p>
+			<p> Directors:
+			<% company.users.where(role: "Director").each do |u| %>
+			<%= u.first_name %>
+			<%= u.last_name %>
+			<% end %></p>
 			<%= link_to "Edit", edit_company_path(company) %>
 		</div>
 	</div>
 <% end %>
 <br>
-<%= link_to "Add New Company", 'companies/new' %>
-<%= link_to "Add New Person", 'users/new' %>
+<%= link_to "Add New Company", 'companies/new'%>
+<br>
+<%= link_to "Add New Person", 'users/new'%>
