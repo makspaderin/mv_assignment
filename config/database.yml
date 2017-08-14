@@ -26,27 +26,18 @@
 
 development:
   adapter: postgresql
-  database: mv_assignment
-  pool: 5
-  username:
-  password:
   host: localhost
-  port: 5433
+  username: user
+  database: app-dev
 
 test:
   adapter: postgresql
-  database: mv_assignment
-  pool: 5
-  username:
-  password:
   host: localhost
-  port: 5433
+  username: user
+  database: app-dev
 
 production:
   adapter: postgresql
-  database: mv_assignment
-  pool: 5
-  username:
-  password: 
   host: localhost
-  port: 5433
+  username: user
+  database: app-dev
