@@ -18,7 +18,9 @@ Then you need:
 
 installed on your system. To run, you should type
 
-`alert('rails server')` or `alert('rails s')`
+`rails server`
+or
+`rails s`
 
 ## Authors
 
@@ -32,6 +34,6 @@ This API is licensed under MIT License (X11 License) - i.e. everybody can share,
 
 * I do not pretend that idea of this API belongs to me, I consider it so called public domain, i.e. nobody can claim that idea of creating lists belongs to him/her.
 
-* The idea to create this API came from desire to learn programming
+* The motivation to create this API came from desire to learn programming
 
 *This readme was written on 14 August, 2017 and is valid until further notification*
