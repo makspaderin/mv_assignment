@@ -11,7 +11,7 @@ body {
   display: none;
 }
 
-input {
+input, select {
   width: 250px;
   height: 40px;
   margin-left: auto;
@@ -39,7 +39,7 @@ input {
 
 /* Add page */
 
-.new_company input {
+.new_company input, .new_company select {
   margin-top: 1.5%;
 }
 
