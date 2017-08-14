@@ -28,25 +28,25 @@ development:
   adapter: postgresql
   database: mv_assignment
   pool: 5
-   username: johndoe
+  username: johndoe
   password: password
   host: localhost
   port: 5433
 
 test:
-    adapter: postgresql
-    database: mv_assignment
-    pool: 5
-     username: johndoe
+  adapter: postgresql
+  database: mv_assignment
+  pool: 5
+  username: johndoe
   password: password
   host: localhost
   port: 5433
 
 production:
-      adapter: postgresql
-      database: mv_assignment
-      pool: 5
-       username: johndoe
+  adapter: postgresql
+  database: mv_assignment
+  pool: 5
+  username: johndoe
   password: password
   host: localhost
   port: 5433
