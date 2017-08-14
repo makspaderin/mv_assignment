@@ -28,13 +28,16 @@ development:
   adapter: postgresql
   database: mv_assignment
   pool: 5
+  host: localhost
 
 test:
     adapter: postgresql
     database: mv_assignment
     pool: 5
+    host: localhost
 
 production:
       adapter: postgresql
       database: mv_assignment
       pool: 5
+      host: localhost
