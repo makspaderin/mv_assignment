@@ -20,7 +20,7 @@ installed on your system. To run, you should type
 
 `rails server`
 or
-`rails s`
+`rails s` while being in the working directory (*mv-assignment* by default)
 
 ## Authors
 
