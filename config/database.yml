@@ -28,8 +28,8 @@ development:
   adapter: postgresql
   database: mv_assignment
   pool: 5
-  username: johndoe
-  password: password
+  username:
+  password:
   host: localhost
   port: 5433
 
@@ -37,8 +37,8 @@ test:
   adapter: postgresql
   database: mv_assignment
   pool: 5
-  username: johndoe
-  password: password
+  username:
+  password:
   host: localhost
   port: 5433
 
@@ -46,7 +46,7 @@ production:
   adapter: postgresql
   database: mv_assignment
   pool: 5
-  username: johndoe
-  password: password
+  username:
+  password: 
   host: localhost
   port: 5433
