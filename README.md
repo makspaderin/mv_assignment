@@ -6,7 +6,7 @@ This simple API is intended to provide its user possibility to create (and edit)
 
 ### If you're running web version from Heroku
 
-Then you just need installed browser and Internet connection
+Then you just need installed browser and Internet connection.
 
 ### If you're running local version from source files
 
@@ -20,11 +20,11 @@ installed on your system. To run, you should type
 
 `rails server`
 or
-`rails s` while being in the working directory (*mv-assignment* by default)
+`rails s` while being in the working directory (*mv-assignment* by default).
 
 ## Authors
 
-Each code line is written and tested by **Maksim Paderin** - [Profile on GitHub](https://github.com/makspaderin/)
+Each line of code except mentioned in the "extra information" section is written and tested by me, i.e. **Maksim Paderin** - [Profile on GitHub](https://github.com/makspaderin/).
 
 ## License
 
@@ -34,6 +34,8 @@ This API is licensed under MIT License (X11 License) - i.e. everybody can share,
 
 * I do not pretend that idea of this API belongs to me, I consider it so called public domain, i.e. nobody can claim that idea of creating lists belongs to him/her.
 
-* The motivation to create this API came from desire to learn programming
+* The motivation to create this API came from desire to learn programming.
+
+* Animations section in *style.css* file is not written by me. I used [this beautiful buttons](http://ianlunn.github.io/Hover/) by Ianlunn.
 
 *This readme was written on 14 August, 2017 and is valid until further notification*

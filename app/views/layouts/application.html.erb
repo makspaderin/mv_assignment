@@ -11,11 +11,15 @@
      <%= stylesheet_link_tag 'application',
     'https://fonts.googleapis.com/css?family=Montserrat:300,400,500',
     media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'expander'%>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header>
+
+    </header>
     <%= yield %>
   </body>
 </html>
