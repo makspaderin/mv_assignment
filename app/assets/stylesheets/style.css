@@ -39,7 +39,7 @@ input, select {
 
 /* Add page */
 
-.new_company input, .new_company select {
+.new_company input, .new_company select, .new_user input, .new_user select {
   margin-top: 1.5%;
 }
 
@@ -73,6 +73,7 @@ p {
   font-family: 'Lato';
   font-size: 15px;
   letter-spacing: 1.2px;
+  color: #3a3a3a;
 }
 
 a {

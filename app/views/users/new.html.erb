@@ -1,0 +1,8 @@
+<h2 class="form_header"> Enter data for the new person: <h2>
+<%= form_for @user do |form| %>
+	<%= form.text_field :first_name, placeholder: "First Name" %>
+  <%= form.text_field :last_name, placeholder: "Last Name" %>
+  <%= form.select :role, ['Beneficial owner', 'Director']%>
+  <%= form.collection_select(:company_id, Company.all, :id, :name) %>
+	<%= form.submit "Add", class: "button hvr-fade" %>
+<% end %>
