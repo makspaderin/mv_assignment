@@ -6,7 +6,7 @@ This simple API is intended to provide its user possibility to create (and edit)
 
 ### How to run
 
-#### If you're running web version from Heroku
+#### If you're running [web version](https://mv-assignment.herokuapp.com/) from Heroku
 
 Then you just need installed browser and Internet connection.
 
